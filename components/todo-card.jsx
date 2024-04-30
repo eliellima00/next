@@ -19,6 +19,7 @@ const TodoCard = ({ task }) => {
       markAsIncomplete(task.id);
     }
   };
+
   return (
     <div
       style={{

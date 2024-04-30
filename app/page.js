@@ -10,6 +10,7 @@ import TasksList from "@/components/tasks-list";
 import AddTaskDialog from "@/components/dialog/add-task-dialog";
 
 export default function Home() {
+  // pegando as tasks da store global
   const { tasks } = useTasksStore();
   const [openModalTask, setOpenModalTask] = useState(false);
 
@@ -59,6 +60,7 @@ export default function Home() {
             }}
           />
         </div>
+
         {tasks.length > 0 ? (
           <div
             style={{
