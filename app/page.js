@@ -1,13 +1,14 @@
 "use client";
-import AppBar from "@/components/appbar/appbar";
+
 import { IoFilter } from "react-icons/io5";
-import { Input } from "@/components/ui/input";
+import { Input } from "../components/ui/input";
 import { useState } from "react";
-import EmptyTasks from "@/components/empty-tags";
-import useTasksStore from "@/store/tasks-store";
+import EmptyTasks from "../components/empty-tags";
+import useTasksStore from "../store/tasks-store";
 import * as React from "react";
-import TasksList from "@/components/tasks-list";
-import AddTaskDialog from "@/components/dialog/add-task-dialog";
+import TasksList from "../components/tasks-list";
+import AddTaskDialog from "../components/dialog/add-task-dialog";
+import AppBar from "../components/appbar/appbar";
 
 export default function Home() {
   // pegando as tasks da store global

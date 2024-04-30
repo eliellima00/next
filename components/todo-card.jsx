@@ -2,10 +2,10 @@ import { Checkbox, FormControlLabel, useTheme } from "@mui/material";
 import { useEffect, useState } from "react";
 import CategoryTag from "./category-tag";
 import PriorityTag from "./priority-tag";
-import formatDate from "@/utils/formatDate";
+import formatDate from "../utils/formatDate";
 import RadioButtonUncheckedIcon from "@mui/icons-material/RadioButtonUnchecked";
 import RadioButtonCheckedIcon from "@mui/icons-material/RadioButtonChecked";
-import useTasksStore from "@/store/tasks-store";
+import useTasksStore from "../store/tasks-store";
 
 const TodoCard = ({ task }) => {
   const { markAsComplete, markAsIncomplete } = useTasksStore();

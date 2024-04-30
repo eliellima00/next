@@ -4,8 +4,8 @@ import DialogIcons from "../dialog-icons";
 import { useState } from "react";
 import PriorityTag from "../priority-tag";
 import PriorityTagVertical from "../priority-tag-vertical";
-import useTasksStore from "@/store/tasks-store";
-import useCategoriesStore from "@/store/categories-store";
+import useTasksStore from "../../store/tasks-store";
+import useCategoriesStore from "../../store/categories-store";
 import CategoryItem from "../categories/category-item";
 import AddCategoryDialog from "./add-category-dialog";
 

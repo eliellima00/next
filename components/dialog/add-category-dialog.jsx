@@ -1,7 +1,7 @@
 import { Box, Modal } from "@mui/material";
 import { createElement, useState } from "react";
 
-import useCategoriesStore from "@/store/categories-store";
+import useCategoriesStore from "../../store/categories-store";
 import { Input } from "../ui/input";
 import CheckOutlinedIcon from "@mui/icons-material/CheckOutlined";
 import { icons } from "../categories/category-item";
